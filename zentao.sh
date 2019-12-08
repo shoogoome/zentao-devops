@@ -15,7 +15,7 @@ case $1 in
         rm -rf ${WORK_PATH}/zbox
         rm -rf ${WORK_PATH}/data
         tar -xzvf zentao.tar.gz
-        mv ${WORK_PATH}/zbox/data ${WORK_PATH}/data
+        mv ${WORK_PATH}/zbox/data/mysql ${WORK_PATH}/data
         rm -rf ${WORK_PATH}/zbox
     ;;
     "pull")
