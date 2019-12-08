@@ -6,6 +6,7 @@
 
 ## 使用说明
 使用时在当前目录下  
+```./zentao.sh init 初始化环境（注意，仅在第一次up环境时使用，重复使用将清空之前的数据）```  
 ```./zentao.sh up 启动环境```  
 ```./zentao.sh down 关闭环境```  
 ```./zentao.sh logs 查看实例日志```  
@@ -15,6 +16,3 @@
 
 ## 自定义参数
 对于zentao.sh内‘name’、‘port’、‘volume’为自行可修改参数
-
-## 注意事项
-dockerfile文件中需要的禅道安装包需自行在官网下载
